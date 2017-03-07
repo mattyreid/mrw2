@@ -5,8 +5,8 @@ Rails.application.routes.draw do
 
   # Define Routes for Pages
   get '/home' => 'pages#home' # override default routes.
-  get '/How you can achieve financial freedom in 2017' => 'pages#profile'
-  get '/how to live a quality life' => 'pages#explore'
+  get '/10thingsyoucandotomakemoneyoffyourwebsite2017' => 'pages#profile'
+  get '/howlowqualitypeoplecanaffectyourlife' => 'pages#explore'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
