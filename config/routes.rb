@@ -5,9 +5,10 @@ Rails.application.routes.draw do
 
   # Define Routes for Pages
   get '/home' => 'pages#home' # override default routes.
-  get '/10thingsyoucandotomakemoneyoffyourwebsite2017' => 'pages#profile'
+  get '/10waystomake10kin10days' => 'pages#profile'
   get '/howlowqualitypeoplecanaffectyourlife' => 'pages#explore'
-   get '/homep' => 'pages#index'
+  get '/homep' => 'pages#index'
+  get '/article1' => 'pages#article1'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
