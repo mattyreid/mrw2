@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
   
    # Define Root URL
-   root 'pages#knowledgealphasociety'
+   root 'pages#index'
 
   # Define Routes for Pages
   get '/home' => 'pages#home' # override default routes.
-  get '/10waystomake10kin10days' => 'pages#profile'
-  get '/howlowqualitypeoplecanaffectyourlife' => 'pages#explore'
+  get '/6booksthatwillhelpyousucceed' => 'pages#profile'
+  get '/6booksthatwillgrowyourbusinessmind' => 'pages#explore'
   get '/homep' => 'pages#index'
-  get '/article1' => 'pages#article1'
+  get '/6thingsyoucandotobemoreproductive' => 'pages#article1'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
